@@ -9,33 +9,33 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<input type="text" id="name" placeholder="Name">
+		<input type="text" id="name" placeholder="Name" required>
 		<label for="name">Name</label>
-		<input type="email" id="email" placeholder="Email">
-		<label id="email">Email</label>
-		<input type="radio" id="gender_m" name="gender">
+		<input type="email" id="email" placeholder="Email" required>
+		<label for="email">Email</label>
+		<input type="radio" id="gender_m" name="gender" required>
 		<label for="gender_m">male</label>
-		<input type="radio" id="gender_f" name="gender">
+		<input type="radio" id="gender_f" name="gender" required>
 		<label for="gender_f">female</label>
-		<input type="select" id="cars" placeholder="--Please choose an option--">
+		<input type="select" id="cars" required placeholder="--Please choose an option--">
 		
 		
-		<input type="number" id="age" placeholder="Age">
+		<input type="number" id="age" placeholder="Age" required>
 		<label for="age">Age</label>
 		
-		<input type="date" id="dob">
+		<input type="date" id="dob" required>
 		<label for="dob">DOB</label>
 		
 		<input type="tel" id="tel" placeholder="xxx-xxx-xxx">
 		<label for="tel">Phone Number</label>
 		
-		<input type="password" id="password" placeholder="Password">
+		<input type="password" id="password" placeholder="Password" required>
 		<label for="password">Password</label>
 		
-		<input type="checkbox" id="tos">
+		<input type="checkbox" id="tos" required>
 		<label for="tos">I agree to the TOS</label>
 
-		<input type="submit">
+		<button type="submit"></button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
